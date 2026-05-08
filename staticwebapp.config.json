@@ -16,7 +16,6 @@
     }
   ],
   "navigationFallback": {
-    "rewrite": "/wrong.html",
     "exclude": [
       "/cat.gif",
       "/assets/*",
@@ -36,10 +35,7 @@
     "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "strict-origin-when-cross-origin"
-  },
-  "responseOverrides": {
-    "404": {
-      "rewrite": "/index.html"
-    }
   }
+
+  
 }
