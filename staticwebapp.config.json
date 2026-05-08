@@ -15,17 +15,6 @@
       }
     }
   ],
-  "navigationFallback": {
-    "exclude": [
-      "/cat.gif",
-      "/assets/*",
-      "/*.css",
-      "/*.js",
-      "/*.png",
-      "/*.jpg",
-      "/*.svg"
-    ]
-  },
   "mimeTypes": {
     ".json": "text/json",
     ".woff": "font/woff",
